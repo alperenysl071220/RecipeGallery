@@ -18,7 +18,7 @@ public class Favorites extends AppCompatActivity {
     }
 
     private void open_Back(){
-        ImageButton back_Favorite = (ImageButton) findViewById(R.id.back_favorite);
+        ImageButton back_Favorite = (ImageButton) findViewById(R.id.return_category);
 
         back_Favorite.setOnClickListener(new View.OnClickListener() {
             @Override

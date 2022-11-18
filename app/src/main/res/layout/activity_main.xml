@@ -8,21 +8,34 @@
     tools:context=".MainActivity">
 
     <RelativeLayout
-        android:layout_width="409dp"
-        android:layout_height="601dp"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
         android:layout_marginTop="2dp"
         android:layout_marginBottom="3dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent">
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="1.0">
+
+        <TextView
+            android:id="@+id/head_favorite2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="105dp"
+            android:layout_marginTop="20dp"
+            android:text="Recipe Gallery"
+            android:textAlignment="center"
+            android:textColor="#000000"
+            android:textSize="30sp"
+            android:textStyle="bold" />
 
         <ImageView
             android:id="@+id/status"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginStart="175dp"
-            android:layout_marginTop="24dp"
+            android:layout_marginTop="80dp"
             app:srcCompat="@drawable/four_dots_first" />
 
         <ImageView
@@ -30,7 +43,7 @@
             android:layout_width="369dp"
             android:layout_height="113dp"
             android:layout_marginLeft="18dp"
-            android:layout_marginTop="50dp"
+            android:layout_marginTop="110dp"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintTop_toTopOf="parent"
             app:srcCompat="@drawable/search_box" />
@@ -41,7 +54,7 @@
             android:layout_height="26dp"
             android:layout_alignStart="@id/Rectangle"
             android:layout_marginStart="23dp"
-            android:layout_marginTop="95dp"
+            android:layout_marginTop="155dp"
             app:layout_constraintStart_toStartOf="@+id/Rectangle"
             app:layout_constraintTop_toTopOf="parent"
             app:srcCompat="@drawable/search" />
@@ -51,7 +64,7 @@
             android:layout_width="270dp"
             android:layout_height="48dp"
             android:layout_alignEnd="@id/Rectangle"
-            android:layout_marginTop="83dp"
+            android:layout_marginTop="143dp"
             android:layout_marginEnd="40dp"
             android:background="@android:color/transparent"
             android:ems="10"
@@ -66,7 +79,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginStart="50dp"
-            android:layout_marginTop="250dp"
+            android:layout_marginTop="270dp"
             android:background="@drawable/photo"
             android:contentDescription="@string/app_name"
             app:srcCompat="@drawable/photo" />
@@ -76,7 +89,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_alignParentEnd="true"
-            android:layout_marginTop="8dp"
+            android:layout_marginTop="13dp"
             android:layout_marginRight="12dp"
             android:background="@drawable/history"
             android:contentDescription="@string/app_name"
@@ -87,7 +100,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginStart="220dp"
-            android:layout_marginTop="250dp"
+            android:layout_marginTop="270dp"
             android:background="@drawable/menu__1_"
             android:contentDescription="@string/app_name"
             android:src="@drawable/menu__1_" />
@@ -97,7 +110,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginStart="135dp"
-            android:layout_marginTop="400dp"
+            android:layout_marginTop="420dp"
             android:background="@drawable/favorite"
             android:contentDescription="@string/app_name"
             app:srcCompat="@drawable/favorite" />

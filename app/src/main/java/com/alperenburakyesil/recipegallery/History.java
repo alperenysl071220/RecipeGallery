@@ -18,7 +18,7 @@ public class History extends AppCompatActivity {
     }
 
     private void open_BackScreen(){
-        ImageButton back_Button = (ImageButton) findViewById(R.id.back_favorite);
+        ImageButton back_Button = (ImageButton) findViewById(R.id.return_category);
 
         back_Button.setOnClickListener(new View.OnClickListener() {
             @Override

@@ -1,4 +1,13 @@
 <resources>
-    <string name="app_name">RecipeGallery</string>
+    <string name="app_name">Recipe Gallery</string>
     <string name="categories">Categories</string>
+    <string name="soup">Soup</string>
+    <string name="soup_name">Soup Name</string>
+    <string name="quantity">Quantity</string>
+    <string name="choose_image">Choose Image</string>
+    <string name="upload_image">UPLOAD IMAGE</string>
+    <string name="publisher">Publisher</string>
+    <string name="cooking_time">Cooking Time</string>
+    <string name="ingredients">Ingredients \nEx:1_Onion\n\t\t\t\t\t\t2_Tomato </string>
+    <string name="how_is_it_cooking">How is it cooking?</string>
 </resources>
